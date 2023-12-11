@@ -21,8 +21,7 @@ function HeroSection() {
                                    Devloop
                                 </h1>
                                 <p className="max-w-[600px] text-gray-700 md:text-lg">
-                                    Experience the best quality organic produce directly from our
-                                    farms to your table.
+                                 Blog application with React, Tailwind CSS, and Firebase
                                 </p>
                             </div>
                             <div className="flex flex-col gap-2 sm:flex-row">
