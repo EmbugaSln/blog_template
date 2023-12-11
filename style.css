@@ -1549,7 +1549,7 @@ h2.home-blog-title {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
-  height: 450px;
+  height: 50vh;
   position: relative;
   display: table;
   width: 100%;
@@ -1736,7 +1736,7 @@ h2.home-blog-title {
   display: block;
   vertical-align: middle;
   border-radius: 10em;
-  max-width: 6em;
+  max-width: 10em;
   text-align: center;
   margin: 2em auto 0 auto;
 }
@@ -2022,111 +2022,34 @@ blockquote, .content-aside {
   font-size: 2.8rem;
 }
 
-.more-link, header nav {
-  font-size: 24px;
-  font-size: 2.4rem;
-}
 
-.meta {
-  font-size: 22px;
-  font-size: 2.2rem;
-}
 
 h1.large {
   font-size: 168px;
   font-size: 16.8rem;
 }
 
-h1 {
-  font-size: 48px;
-  font-size: 4.8rem;
-}
 
-.main-archive h2, h3#respond-title {
-  font-size: 48px;
-  font-size: 4.8rem;
-}
 
-h2, h2.home-blog-title {
-  font-size: 36px;
-  font-size: 3.6rem;
-}
 
-h3 {
-  font-size: 34px;
-  font-size: 3.4rem;
-}
 
-h4 {
-  font-size: 32px;
-  font-size: 3.2rem;
-}
 
-h5, #comments .url {
-  font-size: 30px;
-  font-size: 3rem;
-}
 
-h6 {
-  font-size: 28px;
-  font-size: 2.8rem;
-}
 
-.widget h4 {
-  font-size: 26px;
-  font-size: 2.6rem;
-}
 
 .widget ul {
   opacity: 0.65;
 }
 
-footer.footer, .widget {
-  font-size: 14px;
-  font-size: 1.4rem;
-}
+
 
 .hero {
   line-height: 0.7;
 }
-.hero h1 {
-  font-size: 100px;
-  font-size: 10rem;
-  line-height: 0.8;
-  margin: 0;
-}
-.hero .hero-line-one {
-  font-size: 52px;
-  font-size: 5.2rem;
-}
-.hero .hero-line-two {
-  font-size: 65px;
-  font-size: 6.5rem;
-}
 
-/* Font Weights */
-.site-title,
-h1, h2, h3,
-h4, h5, h6,
-.meta,
-.more-link,
-.share-overlay,
-.content-aside,
-blockquote,
-.btn,
-button,
-.filter,
-.post-meta,
-.btn, button, .button, input[type="submit"],
-header.header nav, .hero, #comments .url,
-.form-submit input[type="submit"],
-.widget h4 {
-  font-weight: 700;
-}
 
-.hero * {
-  font-weight: 400;
-}
+
+
 
 .widget h4 {
   font-weight: 600;
@@ -2148,9 +2071,9 @@ blockquote p {
 }
 
 /* Line Heights and Spacing */
-p {
+/* p {
   margin: 1em 0 1.5em 0;
-}
+} */
 
 .widget p {
   margin: 0.5em 0;
@@ -3389,9 +3312,7 @@ input[type="text"], input[type="url"], input[type="email"], input[type="tel"], i
 .home-sticky .post-image, .related .post-image {
   padding: 0 1em;
 }
-.home-sticky .post-image img, .related .post-image img {
-  border-radius: 2000px;
-}
+
 
 .hero .hero-inner .inner {
   padding-left: 4em;
