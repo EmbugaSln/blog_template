@@ -1,9 +1,9 @@
+import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Navbar from "./components/Navbar";
-import { BrowserRouter, Route, Routes, useParams } from "react-router-dom";
-import Landing from "./pages/Landing";
-import Register from "./pages/Register";
-import Login from "./pages/Login";
 import AllPosts from "./pages/AllPosts";
+import Landing from "./pages/Landing";
+import Login from "./pages/Login";
+import Register from "./pages/Register";
 import SinglePost from "./pages/SinglePost";
 export default function App() {
 
