@@ -1,7 +1,7 @@
 @charset "UTF-8";
 /*!
 
-	Itsy by FreeHTML5
+	DevLoop by FreeHTML5
 	https://freehtml5.co
 	https://twitter.com/fh5co
 	https://fb.com/fh5co
@@ -42,7 +42,7 @@
   ========================================================================== */
 html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp, small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary, time, mark, audio, video {
   border: 0;
-  font-size: 100%;
+ 
   font: inherit;
   vertical-align: baseline;
   margin: 0;
@@ -102,7 +102,7 @@ input, select {
 }
 
 body {
-  font: 13px/1.231 sans-serif;
+  font: 1.6rem  sans-serif;
 }
 
 select, input, textarea, button {
@@ -346,7 +346,7 @@ html[xmlns] .slides {
 
 /* Direction Nav */
 .flex-direction-nav {
-  *height: 0;
+  height: 0;
 }
 
 .flex-direction-nav a {
@@ -1994,7 +1994,9 @@ input[type="tel"], input[type="password"], textarea,
 #edd_checkout_form_wrap,
 header.header nav, .hero, #comments .url,
 .form-submit input[type="submit"] {
-  font-family: 'Amatic SC', 'Heveltica Neue', Arial, sans-serif;
+  /* font-family: 'Amatic SC', 'Heveltica Neue', Arial, sans-serif; */
+  /* font-family: 'Fira Code', monospace; */
+font-family: 'Montserrat', sans-serif;
 }
 
 /* Font Sizes */
